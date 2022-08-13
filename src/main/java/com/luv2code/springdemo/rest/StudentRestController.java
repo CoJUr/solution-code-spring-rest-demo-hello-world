@@ -35,12 +35,11 @@ public class StudentRestController {
     @GetMapping("/students/{studentId}")
     public Student getStudent(@PathVariable int studentId) {
 
-    	List<Student> theStudents = new ArrayList<>();
-//        populate theStudents
 
     	return theStudents.get(studentId);
 //        jackson will convert student pojo to json
     }
+
 
 
 
